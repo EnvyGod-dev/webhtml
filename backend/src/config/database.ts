@@ -3,7 +3,7 @@ import dotenv from 'dotenv';
 
 dotenv.config();
 
-const uri = 'mongodb://localhost:27017/boh';
+const uri = 'mongodb://localhost:27017/team4';
 let db: Db;
 
 export const connectToDatabase = async (): Promise<Db> => {
